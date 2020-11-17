@@ -8,11 +8,9 @@ import (
 
 func main() {
 
-	fmt.Println("Exec SVM...")
-	err := svm.Exec()
-	if err != nil {
-		panic(err)
-	}
+	fmt.Println("Executing the SVM...")
+
+	svm.Exec()
 
 	fmt.Println("SVM exec successful")
 
